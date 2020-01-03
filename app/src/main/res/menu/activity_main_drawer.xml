@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:title="@string/title_activity_dashboard"
+            android:checked="true"
+            android:icon="@drawable/ic_dashboard"/>
+
+        <item
+            android:id="@+id/nav_ghanta_gadi_tracker"
+            android:title="@string/title_activity_ghanta_gadi_tracker"
+            android:checkable="false"
+            android:icon="@drawable/ic_tracker"/>
+
+        <item
+            android:id="@+id/nav_complaint_cleaning"
+            android:title="@string/title_activity_cleaning_complaint"
+            android:checkable="false"
+            android:icon="@drawable/ic_cleaning_complaint"/>
+
+        <item
+            android:id="@+id/nav_complaint_status"
+            android:title="@string/title_activity_complaint_status"
+            android:checkable="false"
+            android:icon="@drawable/ic_my_grievance"/>
+
+        <item
+            android:id="@+id/nav_collection_history"
+            android:title="@string/title_activity_collection_history"
+            android:checkable="false"
+            android:visible="false"
+            android:icon="@drawable/ic_history"/>
+
+        <item
+            android:id="@+id/nav_league"
+            android:title="@string/title_activity_league_questions"
+            android:checkable="false"
+            android:icon="@drawable/ic_ss_league"/>
+
+        <item
+            android:id="@+id/nav_city_pee"
+            android:title="@string/title_activity_city_pee"
+            android:checkable="false"
+            android:icon="@drawable/ic_ct_pt"
+            android:visible="true"/>
+
+        <item
+            android:id="@+id/nav_infotainment"
+            android:title="@string/sba_game_infotainment"
+            android:checkable="false"
+            android:icon="@drawable/ic_infotainment"/>
+
+        <item
+            android:id="@+id/nav_notification"
+            android:title="@string/title_activity_notification_list"
+            android:checkable="false"
+            android:icon="@drawable/ic_notification_svg"/>
+
+        <item
+            android:id="@+id/nav_setting"
+            android:title="@string/action_settings"
+            android:checkable="false"
+            android:icon="@drawable/ic_setting_tracker"/>
+
+        <item
+            android:id="@+id/nav_logout"
+            android:title="@string/logout_txt"
+            android:checkable="false"
+            android:icon="@drawable/ic_logout"/>
+
+    </group>
+
+</menu>
